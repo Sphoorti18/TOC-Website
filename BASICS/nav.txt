@@ -15,7 +15,8 @@ T = Terminals denoted by LowerCase Letters
 S = Start variable
 P = Productions/rules
 x => y
-w = u*x*y
+w = u*x*v | u = prefix and v = suffix
+
 //AUTOMATON
 /*********************************************************************************************************/
 //THE END ;);)
