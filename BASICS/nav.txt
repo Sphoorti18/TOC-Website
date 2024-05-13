@@ -1,7 +1,11 @@
 /*********************************************************************************************************/
 3 BASIC CONCEPTS
 //LANGUAGES
-
+∑ = {a,b}
+∑^* = {λ, ab, aaaab, ba, babaa, aaabb, ....}
+∑^(+) = ∑^* - {λ}
+∑^(+) = {ab, aaaab, ba, babaa, aaabb, ....}
+w^0 = λ | w is a string variable
 //GRAMMARS
 
 //AUTOMATON
