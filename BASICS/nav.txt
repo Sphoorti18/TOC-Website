@@ -7,7 +7,7 @@
 ∑^(+) = {ab, aaaab, ba, babaa, aaabb, ....}
 w^0 = λ | w is a string variable
 //GRAMMARS
-<sentence> ==> <name/noun phrase> <action/predicate/verb> 
+<sentence> ==> <noun phrase> <action/predicate/verb> ==> <article> <name> <verb>
 //AUTOMATON
 /*********************************************************************************************************/
 //THE END ;);)
