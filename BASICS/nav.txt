@@ -8,6 +8,11 @@
 w^0 = λ | w is a string variable
 //GRAMMARS
 <sentence> ==> <noun phrase> <action/predicate/verb> ==> <article> <name> <verb>
+G = (V,T,S,P)
+V = Variables denoted by UpperCase Letters
+T = Terminals denoted by LowerCase Letters 
+S = Start variable
+P = productions/rules
 //AUTOMATON
 /*********************************************************************************************************/
 //THE END ;);)
