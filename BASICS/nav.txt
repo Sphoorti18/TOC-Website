@@ -6,13 +6,16 @@
 ∑^(+) = ∑^* - {λ}
 ∑^(+) = {ab, aaaab, ba, babaa, aaabb, ....}
 w^0 = λ | w is a string variable
+
 //GRAMMARS
 <sentence> ==> <noun phrase> <action/predicate/verb> ==> <article> <name> <verb>
 G = (V,T,S,P)
 V = Variables denoted by UpperCase Letters
 T = Terminals denoted by LowerCase Letters 
 S = Start variable
-P = productions/rules
+P = Productions/rules
+x => y
+w = u*x*y
 //AUTOMATON
 /*********************************************************************************************************/
 //THE END ;);)
