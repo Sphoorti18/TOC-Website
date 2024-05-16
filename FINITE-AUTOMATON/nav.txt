@@ -4,6 +4,7 @@ DETERMINISTIC FINITE AUTOMATON (DFA)
 Q ={ q0, q1, q2, q3 ... qf | q0 == initial state and qf == Final state }
 δ ==> Q × Σ (Cartesian product) ==> { q0, q1, q2, q3 ... qf } x {a, b} ==> {(q0, a) , (q1, a), (q2, a), (q3, a)... (qf, a), (q0, b) , (q1, b), (q2, b), (q3, b)... (qf, b) }
 ==> Q == > { q0, q1, q2, q3 ... qf }
+F ⊆ Q ==> Set of Final states
 
 NON-DETERMINISTIC FINITE AUTOMATON (NFA)
 /****************************************************************************************************************/
