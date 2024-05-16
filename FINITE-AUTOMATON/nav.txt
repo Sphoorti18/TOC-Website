@@ -6,5 +6,10 @@ Q ={ q0, q1, q2, q3 ... qf | q0 == initial state and qf == Final state }
 ==> Q == > { q0, q1, q2, q3 ... qf }
 F ⊆ Q ==> Set of Final states
 
+Transition graphs:
+==> vertices represent states and the edges represent transitions.
+Lemma : If M = (Q, Σ,δ,q0,F) is a DFA, then its associated transition graph G
+has exactly |Q| vertices
+
 NON-DETERMINISTIC FINITE AUTOMATON (NFA)
 /****************************************************************************************************************/
