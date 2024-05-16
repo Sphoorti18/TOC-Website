@@ -18,4 +18,6 @@ has exactly |Q| vertices
 L(M) = {w ∈ Σ* | δ(q0, a) ∈ F}
 
 NON-DETERMINISTIC FINITE AUTOMATON (NFA)
+Q ={ q0, q1, q2, q3 ... qf | q0 == initial state and qf == Final state }
+δ ==> Q × {Σ U {λ}} (Cartesian product) ==>
 /****************************************************************************************************************/
