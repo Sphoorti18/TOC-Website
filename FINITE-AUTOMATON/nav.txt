@@ -11,5 +11,9 @@ Transition graphs:
 Lemma : If M = (Q, Σ,δ,q0,F) is a DFA, then its associated transition graph G
 has exactly |Q| vertices
 
+*Extended transition function
+δ* ==> Q × Σ* | Σ* == string (w)
+
+
 NON-DETERMINISTIC FINITE AUTOMATON (NFA)
 /****************************************************************************************************************/
