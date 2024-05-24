@@ -4,6 +4,7 @@
 //LANGUAGES
 ∑ = {a,b}
 ∑^* = {λ, ab, aaaab, ba, babaa, aaabb, ....}
+L = {l1 : l1 ⊆ ∑^*}
 ∑^(+) = ∑^* - {λ}
 ∑^(+) = {ab, aaaab, ba, babaa, aaabb, ....}
 w^0 = { λ | w == string variable, l = magnitude of w == 0 }
