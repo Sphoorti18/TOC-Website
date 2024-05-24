@@ -1,12 +1,18 @@
 /*********************************************************************************************************/
-3 BASIC CONCEPTS
+###3 BASIC CONCEPTS
 
 //LANGUAGES
 ∑ = {a,b}
 ∑^* = {λ, ab, aaaab, ba, babaa, aaabb, ....}
 ∑^(+) = ∑^* - {λ}
 ∑^(+) = {ab, aaaab, ba, babaa, aaabb, ....}
-w^0 = λ | w is a string variable
+w^0 = { λ | w == string variable, l = magnitude of w }
+
+###PROOFS USING MATHEMATICAL INDUCTION
+w = {u*v | u == prefix and v == suffix}
+u = {λ, a, ab, abb, abba, abbab} and v = {bbab, bab, ab, b, abbab, λ}
+Lemma 1: |u*v| == |u|+|v|
+Proof 1:
 //-----------------------------------------------------------------------------------------------------------
 //GRAMMARS
 <sentence> ==> <noun phrase> <action/predicate/verb> ==> <article> <name> <verb>
