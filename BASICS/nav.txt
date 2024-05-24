@@ -6,13 +6,37 @@
 ∑^* = {λ, ab, aaaab, ba, babaa, aaabb, ....}
 ∑^(+) = ∑^* - {λ}
 ∑^(+) = {ab, aaaab, ba, babaa, aaabb, ....}
-w^0 = { λ | w == string variable, l = magnitude of w }
+w^0 = { λ | w == string variable, l = magnitude of w == 0 }
 
 ###PROOFS USING MATHEMATICAL INDUCTION
 w = {u*v | u == prefix and v == suffix}
 u = {λ, a, ab, abb, abba, abbab} and v = {bbab, bab, ab, b, abbab, λ}
+
 Lemma 1: |u*v| == |u|+|v|
-Proof 1:
+Proof 1: u = {l1 : l1 == magnitude of prefix u} and u = {l2 : l2 == magnitude of suffix v}
+Base case : P(k==0) is true
+          |λ1 * λ2| == |λ1| + |λ2|
+            |0 * 0| == |0| + |0|
+            |0^2|   == 2 * |0|
+                |0| == 2 * |0|
+                  0 == 2 * 0
+                  0 == 0 
+              Hence proved, :)
+
+Assumption case : P(k) is true
+           |k * k| == |k| + |k|
+             |k^2| == 2 * |k|
+               k^2 == 2*k
+               0^2 == 2 * 0, (From Base Case)
+                  0 == 0 
+              Hence proved, :)
+
+Induction case : P(k+1)
+       |(k+1) * (k+1)| == |k+1| + |k+1|
+             |(k+1)^2| == 2 * |k+1|
+                   k^2 == 2*k, (From Assumption Case)
+                   0^2 == 2 * 0, (From Base Case)
+                     0 == 0 
 //-----------------------------------------------------------------------------------------------------------
 //GRAMMARS
 <sentence> ==> <noun phrase> <action/predicate/verb> ==> <article> <name> <verb>
