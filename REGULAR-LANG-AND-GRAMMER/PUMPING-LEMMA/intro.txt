@@ -16,5 +16,17 @@ L = ∃ p (F(w,p) : |w| >= p and w == x*y*z)
 a) Length Condition == |x*y| <= p
 b) Not-Empty Condition == |y| > 0
 c) Pumping Condition == ∀ i >= 0 , x* [y^(i)] *z == w ∈ L
+
+In other words, if you have a string w in the language 𝐿 that is at least as long as the pumping length 𝑝
+, you can "pump" (i.e., repeat) a middle section of the string, and the resulting strings will still be in the language.
+
+//--------------------------------------------------------------------------------------------------------------------
+###PUMPING LEMMA FOR NON-REGULAR LANGUAGES (Proof by Contradiction)
+ALGORITHM:
+I) Assume 𝐿 == Regular Language
+II) 𝑝 == Pumping Length
+III) Choose w ∈ L : |w| >= 𝑝
+IV) Show that w == {x*y*z : |x*y| <= 𝑝 and |y| > 0, {∃ i : (0 <= i > 1) and x * [y^(i)] * z ∉ L} }
+V) Conclude that the given language L contradicts the Pumping Lemma. 
 /********************************************************************************************************************/
 THE END ;);)
