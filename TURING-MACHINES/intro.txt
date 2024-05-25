@@ -1,7 +1,7 @@
 ###BEFORE YOU READ
 a) **Finite state machines (FSM == DFA/NDFA)** 
 *Data structure = Arrays with finite size*
-Reading the input string from {left --> right or right <-- left}
+Reading the input string from {left --> right or right --> left}
 |---|---|---|---|---|
 | 0 | 1 | 0 | 0 | 1 |
 |---|---|---|---|---|
