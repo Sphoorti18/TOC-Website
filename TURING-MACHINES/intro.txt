@@ -1,12 +1,32 @@
 ###BEFORE YOU READ
 a) **Finite state machines (FSM == DFA/NDFA)** 
-Regular Languages
-b) **PushDown Automaton (PDA)** 
-Contex-free-Languages 
-Regular Languages
+*Data structure = Arrays with finite size*
+Reading the input string from {left --> right or right <-- left}
+|---|---|---|---|---|
+| 0 | 1 | 0 | 0 | 1 |
+|---|---|---|---|---|
+Meant for **Regular Languages**
+
+b) **PushDown Automaton (PDA)**
+*Data structure == Stack/FIFO/LILO*
+|---|
+| C | <=== Top of the stack
+|---|
+| B |
+|---|
+| A | <=== Bottom of the stack
+|---|
+Meant for **Contex-free-Languages** 
+
 /**************************************************************************************************************************/
 ###TURING MACHINES
 **Definition** = Abstract model for all computers!
+Data structure == {Tape / Array with infinite size (n) }
+|---|---|---|---|---|---|---|
+| 0 | 1 | 0 | 0 | 1 | . | . | . . .
+|---|---|---|---|---|---|---|
+|<---------------- n ------------>|
+
 -----------------------------------------------------------------------------------------------------------------------------
 ##TURING TEST == It fails when the turing machine recognizes whether the message is from a human or computer.
 -----------------------------------------------------------------------------------------------------------------------------
