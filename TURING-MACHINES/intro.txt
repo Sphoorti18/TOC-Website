@@ -1,1 +1,10 @@
+/**************************************************************************************************************************/
+###TURING MACHINES
+**Definition** = Abstract model for all computers!
 
+###3 MAIN CONCEPTS (LANGUAGES)
+I) **DECIDABLE LANGUAGES**
+II) **TURING RECOGNIZABLE**
+III) **NOT TURING RECOGNIZABLE**
+/**************************************************************************************************************************/
+THE END ;);)
