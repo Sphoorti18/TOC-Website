@@ -1,7 +1,9 @@
 /**************************************************************************************************************************/
 ###TURING MACHINES
 **Definition** = Abstract model for all computers!
-
+-----------------------------------------------------------------------------------------------------------------------------
+##TURING TEST == It fails when the turing machine recognizes whether the message is from a human or computer.
+-----------------------------------------------------------------------------------------------------------------------------
 ###3 MAIN CONCEPTS (LANGUAGES)
 I) **DECIDABLE LANGUAGES**
 II) **TURING RECOGNIZABLE**
