@@ -44,7 +44,9 @@ CASE 1:
                   I/P Σ = {a}       O/P Σ = {b}
 
 CASE 2: If you don't want to update
-I/P Σ = {a} == O/P Σ = {b} , R == Left
+I/P Σ = {a} == O/P Σ = {b} , R == Left or right
+
+F = {x,y,z | x == HALT + ACCEPT , y == HALT + REJECT and z == LOOP (NOT STOPPING)}
 -----------------------------------------------------------------------------------------------------------------------------
 ##TURING TEST == It fails when the turing machine recognizes whether the message is from a human or computer.
 -----------------------------------------------------------------------------------------------------------------------------
