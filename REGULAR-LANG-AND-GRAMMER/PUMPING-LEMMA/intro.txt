@@ -1,1 +1,20 @@
+###GLOSSARY
+∃ == There Exists
+∀ == For all
+Universal Quantifier == ∀ x (P(x) | True)
+Existential Quantifier == ∃ x (P(x) | True)
+/********************************************************************************************************************/
+###PUMPING LEMMA FOR REGULAR LANGUAGES
+It's used to prove whether the given *language* is *regular* or *not*!
 
+##Theorem :
+'L' is a regular Language. 
+L = ∃ p (pumping length) {w | string w ∈ L and |w| >= p, w = x*y*z } which follow these rules :
+Before that, I'm gonna Reiterate my above statement in Existential Quantifier form
+L = ∃ p (F(w,p) : |w| >= p and w == x*y*z)
+
+a) Length Condition == |x*y| <= p
+b) Not-Empty Condition == |y| > 0
+c) Pumping Condition == ∀ i >= 0 , x* [y^(i)] *z == w ∈ L
+/********************************************************************************************************************/
+THE END ;);)
