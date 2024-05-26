@@ -1,6 +1,10 @@
 PRERESQUITES-
 FORMAL DEFINITION OF REGULAR LANGUAGE = ACCEPTED BY FINITE AUTOMATON! 
 /*********************************************************************************************************************/
-REPRESENTATION == REGULAR EXPRESSIONS
+REPRESENTATION == REGULAR EXPRESSIONS (RE)
+Convert the NFA to RE
+Case 1 = 2 states
+RE = r_{ii}* r_{ij} (r_{jj} + r_{ji} r_{ii}* r_{ij})*
+Case 2 = 3 states
 /*********************************************************************************************************************/
 THE END ;);)
