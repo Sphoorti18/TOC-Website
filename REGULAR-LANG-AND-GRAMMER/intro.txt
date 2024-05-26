@@ -1,10 +1,30 @@
 PRERESQUITES-
 FORMAL DEFINITION OF REGULAR LANGUAGE = ACCEPTED BY FINITE AUTOMATON! 
 /*********************************************************************************************************************/
-REPRESENTATION == REGULAR EXPRESSIONS (RE)
+##REPRESENTATION == REGULAR EXPRESSIONS (RE)
+
+###GENERALISED TRANSITIONED GRAPH (GTG) = It's a transition graph whose edges are labelled as regular expression. 
+##COMPLETE GTG = Missing edges in GTG (derived from NFA) is constructed and denoted by Ø.
 Convert the NFA to RE
-Case 1 = 2 states
-RE = r_{ii}* r_{ij} (r_{jj} + r_{ji} r_{ii}* r_{ij})*
-Case 2 = 3 states
+I) Start with NFAs with q1, q2, .. qn | initial state is distinct from a single final state
+II) Convert the given NFA into complete GTG.
+
+Case 1 => 2 states = n 
+RE = r_{ii}* r_{ij} (r_{jj} + r_{ji} r_{ii}* r_{ij})* | i = initial state and j = final state
+
+Case 2 => 3 states = n
+i = initial state, j = final state and k = intermediate state
+RE = r_{pq} + r_{pk} r_{kk}* r_{kq} | label missing edges with p = i,j and q=i,j and after that remove k state
+
+Case 3 => n >= 4
+
+Rules :
+Ø + r = r
+rØ = r
+Ø* = λ
+//--------------------------------------------------------------------------------------------------------------------
+REGULAR GRAMMER |--> Left-Linear ==> A --> Bx or A --> x | A,B ∈ V and x ∈ T* 
+                |--> Right-Linear ==> A --> xB or A --> x | A,B ∈ V and x ∈ T*
+G=(V,T,S,P)
 /*********************************************************************************************************************/
 THE END ;);)
