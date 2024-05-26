@@ -19,5 +19,11 @@ L(M) = {w ∈ Σ* | δ(q0, a) ∈ F}
 
 NON-DETERMINISTIC FINITE AUTOMATON (NFA)
 Q ={ q0, q1, q2, q3 ... qf | q0 == initial state and qf == Final state }
-δ ==> Q × {Σ U {λ}} (Cartesian product) ==>
+δ ==> Q × {Σ U {λ}} (Cartesian product) ==> 2^Q
+//------------------------------------------------------------------------------------------------------------------
+
+###Conversion from nfa to dfa Algorithm
+Step 1 = Q_nfa == Q_dfa (set of states)| q_nfa == q_dfa (Initial states) and F_nfa == F_dfa (Final states)
+Step 2 = Σ_nfa == Σ_dfa
+
 /****************************************************************************************************************/
