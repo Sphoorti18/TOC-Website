@@ -23,7 +23,10 @@ Q ={ q0, q1, q2, q3 ... qf | q0 == initial state and qf == Final state }
 //------------------------------------------------------------------------------------------------------------------
 
 ###Conversion from nfa to dfa Algorithm
-Step 1 = Q_nfa == Q_dfa (set of states)| q_nfa == q_dfa (Initial states) and F_nfa == F_dfa (Final states)
-Step 2 = Σ_nfa == Σ_dfa
-
+Step 1 => q0 of nfa == q0 of dfa 
+Step 2 => Σ_nfa == Σ_dfa
+Step 3 => |Q_dfa| = 2^|Q_nfa|
+         Q_dfa = P(Q_nfa) ==> Power set of nfa
+Step 4 => Identify the finals states in Q_dfa
+Step 5 => Draw Transitions for Q_dfa
 /****************************************************************************************************************/
