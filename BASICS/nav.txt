@@ -6,7 +6,7 @@ GLOSSARY
 5) w == Combinations of symbol (order matters)
 6) Symbol == Set of letters (Greek, English Alphabets, numbers, unicode, etc)
 7) 
-/*********************************************************************************************************/
+/*********************************************************************************************************/ 
 ###3 BASIC CONCEPTS
 
 //LANGUAGES
