@@ -76,7 +76,7 @@ TYPES |--> FSM (Finite state machines) |--> DFA
                                        |--> ∈-NFA 
            You can think of FSM as a modern computer with very very small storage.
 
-      |--> NPDA (Non-deterministic Pushdown automaton) ==> Using stack data structure (LILO or FIFO)
+      |--> NPDA (Non-deterministic Pushdown automaton) ==> Using stack data structure (LIFO or FIFO)
            It's a modern computer with stack as its main memory (RAM + ROM) 
 
       |--> Turing Machines (TM) ==> Basic model of Modern Computers with infinite storage (main memory)
