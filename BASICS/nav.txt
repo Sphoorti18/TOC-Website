@@ -106,7 +106,7 @@ TYPES |--> FSM (Finite state machines) |--> DFA
                                 ==> Types |--> 2-Way (-∞ to +∞ horizontal storage tape)
                                           |--> NPDA with 2 stacks 
                                           |--> 1-Way (Semi-Infinite tape)
-                                          |--> Multi-tape (Multiple tapes controlled by FSM)
+                                          |--> Multi-tape (Multiple tapes controlled by FSM) 
                                           |--> Multi-dimensional tape (n-directions to read and overwrite tape symbol )
 
       
