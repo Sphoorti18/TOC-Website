@@ -68,14 +68,24 @@ An automaton is an abstract model of a digital computer.
  I/P file     |-----------|      O/P 
 ------------> | Automaton | ------------->
               |-----------|
-
+                 
 //-----------------------------------------------------------------------------------------------------------
 ##CONNECTION BETWEEN DIFFERENT TYPES OF AUTOMATON
-TYPES |--> FSM (Finite state machines) |--> DFA ==> δ : Q ⨯ ∑ => 
-                                       |--> NFA ==> δ : Q ⨯ ∑ =>
-                                       |--> ∈-NFA ==> δ : Q ⨯ ∑ ∪ {λ or ∈} ==>
-      |--> NPDA (Non- deterministic Pushdown/Stack automaton) ==> δ : Q ⨯ ∑ => 
-      |--> Turing Machines (TM) 
+TYPES |--> FSM (Finite state machines) |--> DFA 
+                                       |--> NFA 
+                                       |--> ∈-NFA 
+           You can think of FSM as a modern computer with very very small storage.
+
+      |--> NPDA (Non-deterministic Pushdown automaton) ==> Using stack data structure (LILO or FIFO)
+           It's a modern computer with stack as its main memory (RAM + ROM) 
+
+      |--> Turing Machines (TM) ==> Basic model of Modern Computers with infinite storage (main memory)
+                                ==> Types |--> 2-Way (-∞ to +∞ horizontal storage tape)
+                                          |--> NPDA with 2 stacks
+                                          |--> 1-Way (Semi-Infinite tape)
+                                          |--> Multi-tape (Multiple tapes controlled by FSM)
+                                          |--> Multi-dimensional tape (n-directions to read and overwrite tape symbol )
+
       
 /*********************************************************************************************************/
 //THE END ;);)
