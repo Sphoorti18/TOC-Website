@@ -68,7 +68,10 @@ An automaton is an abstract model of a digital computer.
  I/P file     |-----------|      O/P 
 ------------> | Automaton | ------------->
               |-----------|
-                 
+
+              |--------------|
+I/P file <==> | Control Unit | <==> Storage
+              |--------------|
 //-----------------------------------------------------------------------------------------------------------
 ##CONNECTION BETWEEN DIFFERENT TYPES OF AUTOMATON
 TYPES |--> FSM (Finite state machines) |--> DFA 
