@@ -84,9 +84,18 @@ TYPES |--> FSM (Finite state machines) |--> DFA
 
       |--> Turing Machines (TM) ==> Basic model of Modern Computers with infinite storage (main memory).
                                     You can think of it a tape reader and writer which contains control unit (FSM). 
+
                                 ==> Time complexity == O(2n) == O(n*[log_{e}(e)]) | (0 <= n <= +∞)
                                                     == O(n*[log_{e}(t)]]) ==> O(n*[ln(t)]])
+
                                 ==> Space complexity == O(1, 2, 3, ... n) ==> O(n)
+
+                                ==> LANGUAGE --> It's testing the membership statement : L ∈ TM ?
+                                                  TYPES |-->> Recursively defined Language (RDL)
+                                                                      => It's a RECURRENCE RELATION WITH RESTRICTIONS. 
+                                                                      => Case 1 :  
+                                                        |-->> Recursively enumerable Language (REL)
+                                                                      => It's a RECURRENCE RELATION WITHOUT RESTRICTIONS.
                                 ==> Types |--> 2-Way (-∞ to +∞ horizontal storage tape)
                                           |--> NPDA with 2 stacks
                                           |--> 1-Way (Semi-Infinite tape)
