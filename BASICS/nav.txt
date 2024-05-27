@@ -3,7 +3,9 @@ GLOSSARY
 2) ⨯ == Cartesian product in set theory
 3) Q == Set of states in an automaton 
 4) ∑ == Set of words of strings (w)
-5) w == Combinations of Sequence of symbol
+5) w == Combinations of symbol (order matters)
+6) Symbol == Set of letters (Greek, English Alphabets, numbers, unicode, etc)
+7) 
 /*********************************************************************************************************/
 ###3 BASIC CONCEPTS
 
