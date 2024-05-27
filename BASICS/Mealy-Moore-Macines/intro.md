@@ -8,7 +8,7 @@
 | Applications           | Used where output timing is critical.                                          | Used where quick output reaction to input changes is critical.                                 |
 | Output Changes         | Outputs change only at state boundaries.                                       | Outputs can change in the middle of transitions.                                               |
 
-Mealy Machine
+*Mealy Machine*
 A Mealy machine's output depends on both the current state and the input.
 
 
@@ -19,7 +19,7 @@ Transitions between states are labeled with input/output.
 For example, in the transition from state A to state B, labeled as 0/1:
 
 If the machine is in state A and receives an input of 0, it moves to state B and outputs 1.
-Moore Machine
+*Moore Machine*
 A Moore machine's output depends only on the current state.
 
 
