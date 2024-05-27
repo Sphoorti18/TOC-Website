@@ -1,3 +1,6 @@
+PREQSIQUITES
+DISCRETE MATHEMATICS
+-----------------------------------------------------------------------------------------------------------------------------------------
 GLOSSARY 
 1) δ ==> Transition function
 2) ⨯ == Cartesian product in set theory
@@ -5,7 +8,7 @@ GLOSSARY
 4) ∑ == Set of words of strings (w)
 5) w == Combinations of symbol (order matters)
 6) Symbol == Set of letters (Greek, English Alphabets, numbers, unicode, etc)
-7) 
+7) ~ == NEGATION 
 /*********************************************************************************************************/ 
 ###3 BASIC CONCEPTS
 
@@ -93,11 +96,15 @@ TYPES |--> FSM (Finite state machines) |--> DFA
                                 ==> LANGUAGE --> It's testing the membership statement : L ∈ TM ?
                                                   TYPES |-->> Recursively defined Language (RDL)
                                                                       => It's a RECURRENCE RELATION WITH RESTRICTIONS. 
-                                                                      => Case 1 :  
+                                                                      => Case 1 : ACCEPT + HALT
+                                                                      => Case 2 : (~ACCEPT) + HALT
+                                                                      => DECIDABILITY
                                                         |-->> Recursively enumerable Language (REL)
                                                                       => It's a RECURRENCE RELATION WITHOUT RESTRICTIONS.
+                                                                      => Case 3 : ∞ Loop + (~HALT)
+                                                                      => UNDECIDABILITY
                                 ==> Types |--> 2-Way (-∞ to +∞ horizontal storage tape)
-                                          |--> NPDA with 2 stacks
+                                          |--> NPDA with 2 stacks 
                                           |--> 1-Way (Semi-Infinite tape)
                                           |--> Multi-tape (Multiple tapes controlled by FSM)
                                           |--> Multi-dimensional tape (n-directions to read and overwrite tape symbol )
