@@ -1,3 +1,9 @@
+GLOSSARY 
+1) δ ==> Transition function
+2) ⨯ == Cartesian product in set theory
+3) Q == Set of states in an automaton 
+4) ∑ == Set of words of strings (w)
+5) w == Combinations of Sequence of symbol
 /*********************************************************************************************************/
 ###3 BASIC CONCEPTS
 
@@ -60,6 +66,14 @@ An automaton is an abstract model of a digital computer.
  I/P file     |-----------|      O/P 
 ------------> | Automaton | ------------->
               |-----------|
-                   
+
+//-----------------------------------------------------------------------------------------------------------
+##CONNECTION BETWEEN DIFFERENT TYPES OF AUTOMATON
+TYPES |--> FSM (Finite state machines) |--> DFA ==> δ : Q ⨯ ∑ => 
+                                       |--> NFA ==> δ : Q ⨯ ∑ =>
+                                       |--> ∈-NFA ==> δ : Q ⨯ ∑ ∪ {λ or ∈} ==>
+      |--> NPDA (Non- deterministic Pushdown/Stack automaton) ==> δ : Q ⨯ ∑ => 
+      |--> Turing Machines (TM) 
+      
 /*********************************************************************************************************/
 //THE END ;);)
